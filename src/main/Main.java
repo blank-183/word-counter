@@ -49,7 +49,7 @@ public class Main {
 		JLabel charsLabel = new JLabel("# of characters:");
 		charsLabel.setForeground(new Color(255, 255, 255));
 		charsLabel.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		charsLabel.setBounds(39, 443, 113, 24);
+		charsLabel.setBounds(39, 443, 125, 24);
 		frmWordCounter.getContentPane().add(charsLabel);
 		
 		final JLabel nWordsLabel = new JLabel("0");
@@ -61,7 +61,7 @@ public class Main {
 		final JLabel nCharsLabel = new JLabel("0");
 		nCharsLabel.setForeground(new Color(255, 255, 255));
 		nCharsLabel.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		nCharsLabel.setBounds(162, 443, 179, 24);
+		nCharsLabel.setBounds(170, 443, 179, 24);
 		frmWordCounter.getContentPane().add(nCharsLabel);
 		
 		JButton countBtn = new JButton("Get Count");
